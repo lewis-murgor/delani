@@ -6,7 +6,7 @@ This is a website of Delani studio. It tells the user more about the studio. It 
 ## Setup/Installation Requirements
 * Go to any browser
 * click on new tab
-* Enter the url 
+* Enter the url https://lewis-murgor.github.io/delani/
 * click enter
 All you need to view this website is a browser.
 ## Known Bugs
@@ -14,9 +14,9 @@ The website has no known bugs as it is a new webpsite.
 ## Technologies Used
 The technologies used to create this project are html, css and javascript.
 ## Live Site on Github pages
-The link to the live site of this website on github pages is 
+The link to the live site of this website on github pages is https://lewis-murgor.github.io/delani/
 ## Support and contact details
 If you run into any difficulties while using this website feel free to type your name, email and message on the contact us section. You can also fork the project and make changes.
 ### License
-*>You can check the licence [here]()*
+*>You can check the licence [here](https://github.com/lewis-murgor/delani/blob/master/Licence)*
 Copyright (c) {2021} **by Lewis Murgor**
