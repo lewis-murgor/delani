@@ -12,6 +12,12 @@ $(document).ready(function() {
         $(".product-hidden").toggle();
     });
 
+    $("#clickable").hover(function() {
+        $(this).css("background-color", "white");
+    }, function() {
+        $(this).css("background-color", "initial-color");
+    });
+
     $("form#contact").submit(function(event) {
         event.preventDefault();
         var user = $("#name").val();
