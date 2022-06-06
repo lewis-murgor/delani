@@ -11,26 +11,39 @@
     <script src="js/scripts.js"></script>
 </head>
 <body>
-    <div class="container">
         <div class="header">
-            <div class="logo"><img src="images/logo.png" alt=""></div><br>
-            <h1>
-                WELCOME <br>
-                TO DELANI STUDIO
-            </h1>
-            <h6>AMAZING PEOPLE ARE MAKING AMAZING DESIGN IN A FUN ENVIRONMENT</h6><br>
-            <div class="logo"><img src="images/mouse_click.png" alt=""></div>
+            <div class="head">
+                <div class="logo"><img src="images/logo.png" alt=""></div>
+                <br>
+                <br>
+                <h1 class="text-center">
+                    WELCOME <br>
+                    TO DELANI STUDIO
+                </h1>
+                <h6>AMAZING PEOPLE ARE MAKING AMAZING DESIGN IN A FUN ENVIRONMENT</h6>
+                <br><br><br><br><br><br><br><br><br><br>
+                <div class="logo"><img src="images/mouse_click.png" alt=""></div>
+            </div>
+            
         </div>
+        <br><br>
+        <div class="container">
             <h3>ABOUT US</h3>
             <p>When you work with us, you are part of a team of committed collaborators. All aspects of our software development process are intergrated, interactive and agile.</p>
             <p>Our approach unifies design, development and product management to create exceptional products.</p>
             <p>We start each project by understanding your business goals, needs and product requirements then we help translate them into effective and elegant solutions.</p>
-        <div class="services">
-            <h3>SERVICES</h3>
-            <p>Before we sign a contract or write a line of code our team will spend the necessary time needed to understand your product vision.</p>
-            <p>The outcome of this scoping session is a proposal or high-level statement of work</p>
-            <p>Based on your requirements, we can provide a complete offer or just the pieces you need.</p>
         </div>
+        <br><br>    
+        <div class="services">
+            <div class="service">
+                <h3>SERVICES</h3>
+                <p>Before we sign a contract or write a line of code our team will spend the necessary time needed to understand your product vision.</p>
+                <p>The outcome of this scoping session is a proposal or high-level statement of work</p>
+                <p>Based on your requirements, we can provide a complete offer or just the pieces you need.</p>
+            </div> 
+        </div>
+        <br><br>
+        <div class="container" style="text-align: center;">  
             <h3>WHAT WE DO</h3>
             <div class="row">
                 <div class="col-md-4">
@@ -56,7 +69,7 @@
                         <div class="development-hidden">
                             <img src="images/dev_icon.png" alt=""><br>
                             DEVELOPMENT
-                        </div>
+                        </div> 
                     </div>
                 </div>
                 <div class="col-md-4">
@@ -73,52 +86,70 @@
                     </div>
                 </div>
             </div>
+        </div>
+        <div class="container">
+            <br><br>
             <h3>PORTFOLIO</h3>
             <div id="clickable">
                 <div class="row">
-                    <div class="col-md-3">
+                    <div class="col-md-3 work1">
                         <img src="images/work4.jpg"width="270px" alt="">
+                        <p id="delani" class="portfolio text-center"><strong><em> DELANI STUDIO</em></strong></p>
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-md-3 work2">
                         <img src="images/work3.jpg"width="270px" alt="">
+                        <p id="ontario" class="portfolio"><strong><em>ONTARIO</em></strong></p>
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-md-3 work3">
                         <img src="images/work2.jpg"width="270px" alt="">
+                        <p id="delani-studio" class="portfolio text-center"><strong><em>DELANI STUDIO</em></strong></p>
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-md-3 work4">
                         <img src="images/work1.jpg"width="270px" alt="">
+                        <p id="weather" class="portfolio"><strong><em>WEATHER</em></strong></p>
                     </div>
                 </div>
+                <br>
                 <div class="row">
-                    <div class="col-md-3">
+                    <div class="col-md-3 work5">
                         <img src="images/work5.jpg"width="270px" alt="">
+                        <p id="day" class="portfolio"><strong><em>GOOD DAY</em></strong></p>
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-md-3 work6">
                         <img src="images/work6.jpg"width="270px" alt="">
+                        <p id="age" class="portfolio"><strong><em>AGE</em></strong></p>
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-md-3 work7">
                         <img src="images/work7.jpg"width="270px" alt="">
+                        <p id="burner" class="portfolio"><strong><em>BURNER</em></strong></p>
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-md-3 work8">
                         <img src="images/work8.jpg"width="270px" alt="">
+                        <p id="giraffe" class="portfolio"><strong><em>GIRAFFE</em></strong></p>
                     </div>
                 </div>
             </div>
-        <div class="contact">
-            <h3>CONTACT US</h3>
-            <form id="contact">
-                <div class="row">
-                    <div class="col-md-6">
-                        <div class="form-group"><label for="a name"></label><input type="text" class="form-control" id="name" placeholder="Name..."></div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="form-group"><label for="email adress"></label><input type="email" class="form-control" id="email" placeholder="Email..."></div>
-                    </div>
-                </div>
-                <div class="form-group"><label for="message"></label><input type="text" class="form-control" id="message" placeholder="Your message here..."></div>
-                <button onclick="contactUs" type="submit" class="btn">send</button>
-            </form>
         </div>
+        <br><br>
+        <div class="contact">
+            <div class="contacts">
+                <h3>CONTACT US</h3>
+                <form id="contact">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-group"><label for="a name"></label><input type="text" class="form-control" id="name" placeholder="Name..."></div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group"><label for="email adress"></label><input type="email" class="form-control" id="email" placeholder="Email..."></div>
+                        </div>
+                    </div>
+                    <div class="form-group"><label for="message"></label><textarea style="background: transparent;" class="form-control" id="message" rows="6"  placeholder="Your message here..."></textarea></div>
+                    <button onclick="contactUs" type="submit" class="btn" style="color: white;">send</button>
+                </form>
+            </div>
+            
+        </div>
+        <br><br>
         <div class="social-icons">
             <img src="images/twitter.png" alt="">
             <img src="images/dribble.png" alt="">
@@ -130,10 +161,13 @@
             <img src="images/pinterest.png" alt="">
             <img src="images/flickr.png" alt="">
         </div>
+        <br>
         <div class="delani">
-            <p>DELANI STUDIO</p>
-            <p>2019</p>
+            <p>
+                DELANI STUDIO
+                <br>
+                2019
+            </p>
         </div>
-    </div>
 </body>
 </html>
